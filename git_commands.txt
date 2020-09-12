@@ -1,0 +1,35 @@
+create new branch from lindseys updated branch	:	mytries_gcp updated 23feb2020
+
+
+commands glossary==============================================>
+initialize:
+git init
+
+clone repo after forking:
+git clone <repo>
+
+list branches:
+git branch -a
+
+checkout branch:
+git checkout <branch>
+
+create and checkout the created branch:
+git checkout -b <newbranch>
+
+to add new files:
+git add <file>/* : * for all
+
+
+to commit changed stuff:
+git commit -a
+
+
+to check all remote places to push:
+git remote -v
+
+push to preferred remote branch:
+git push origin <branch> : origin is default remote usually in github.com
+
+in a new machine set git repo and bring desired branch upto date:
+git pull origin <branch>
